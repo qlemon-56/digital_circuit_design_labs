@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="full_adder_1bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="full_adder_1bit_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="920.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,100.201 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="264"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject type="divider" fp_name="divider10">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder_1bit_tb/addend0" type="logic">
+      <obj_property name="ElementShortName">addend0</obj_property>
+      <obj_property name="ObjectShortName">addend0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder_1bit_tb/addend1" type="logic">
+      <obj_property name="ElementShortName">addend1</obj_property>
+      <obj_property name="ObjectShortName">addend1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder_1bit_tb/carry_in" type="logic">
+      <obj_property name="ElementShortName">carry_in</obj_property>
+      <obj_property name="ObjectShortName">carry_in</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider11">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder_1bit_tb/sum" type="logic">
+      <obj_property name="ElementShortName">sum</obj_property>
+      <obj_property name="ObjectShortName">sum</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder_1bit_tb/carry_out" type="logic">
+      <obj_property name="ElementShortName">carry_out</obj_property>
+      <obj_property name="ObjectShortName">carry_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="group12" type="group">
+      <obj_property name="label">Internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/full_adder_1bit_tb/UUT/prop" type="logic">
+         <obj_property name="ElementShortName">prop</obj_property>
+         <obj_property name="ObjectShortName">prop</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_adder_1bit_tb/UUT/gen" type="logic">
+         <obj_property name="ElementShortName">gen</obj_property>
+         <obj_property name="ObjectShortName">gen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/full_adder_1bit_tb/UUT/c_prop" type="logic">
+         <obj_property name="ElementShortName">c_prop</obj_property>
+         <obj_property name="ObjectShortName">c_prop</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

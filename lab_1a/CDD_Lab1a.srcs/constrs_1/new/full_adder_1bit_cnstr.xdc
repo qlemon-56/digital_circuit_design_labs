@@ -1,0 +1,5 @@
+set_property -dict { IOSTANDARD LVCMOS18 PACKAGE_PIN M15 } [get_ports {addend0}]
+set_property -dict { IOSTANDARD LVCMOS18 PACKAGE_PIN H17 } [get_ports {addend1}]
+set_property -dict { IOSTANDARD LVCMOS18 PACKAGE_PIN H18 } [get_ports {carry_in}]
+set_property -dict { IOSTANDARD LVCMOS18 PACKAGE_PIN T22 } [get_ports {sum}]
+set_property -dict { IOSTANDARD LVCMOS18 PACKAGE_PIN T21 } [get_ports {carry_out}]
