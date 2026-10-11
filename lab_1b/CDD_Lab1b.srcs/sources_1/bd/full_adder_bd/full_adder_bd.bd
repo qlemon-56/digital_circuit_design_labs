@@ -1,0 +1,109 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF05C67BEF05C67BE",
+      "device": "xc7z020clg484-1",
+      "gen_directory": "../../../../CDD_Lab1b.gen/sources_1/bd/full_adder_bd",
+      "name": "full_adder_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "full_adder_4bit_0": ""
+    },
+    "ports": {
+      "First_Addend_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Second_Addend_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Sum_0": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "carry_in_0": {
+        "direction": "I"
+      },
+      "carry_out_0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "full_adder_4bit_0": {
+        "vlnv": "xilinx.com:module_ref:full_adder_4bit:1.0",
+        "ip_revision": "1",
+        "xci_name": "full_adder_bd_full_adder_4bit_0_0",
+        "xci_path": "ip\\full_adder_bd_full_adder_4bit_0_0\\full_adder_bd_full_adder_4bit_0_0.xci",
+        "inst_hier_path": "full_adder_4bit_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "full_adder_4bit",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "First_Addend": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "Second_Addend": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "carry_in": {
+            "direction": "I"
+          },
+          "Sum": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "carry_out": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "First_Addend_0_1": {
+        "ports": [
+          "First_Addend_0",
+          "full_adder_4bit_0/First_Addend"
+        ]
+      },
+      "Second_Addend_0_1": {
+        "ports": [
+          "Second_Addend_0",
+          "full_adder_4bit_0/Second_Addend"
+        ]
+      },
+      "carry_in_0_1": {
+        "ports": [
+          "carry_in_0",
+          "full_adder_4bit_0/carry_in"
+        ]
+      },
+      "full_adder_4bit_0_Sum": {
+        "ports": [
+          "full_adder_4bit_0/Sum",
+          "Sum_0"
+        ]
+      },
+      "full_adder_4bit_0_carry_out": {
+        "ports": [
+          "full_adder_4bit_0/carry_out",
+          "carry_out_0"
+        ]
+      }
+    }
+  }
+}
