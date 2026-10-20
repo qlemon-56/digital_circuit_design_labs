@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="counter_4bit_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="counter_4bit_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="118.490 ns"></ZoomStartTime>
+      <ZoomEndTime time="297.891 ns"></ZoomEndTime>
+      <Cursor1Time time="326.690 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="264"></NameColumnWidth>
+      <ValueColumnWidth column_width="91"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="divider" fp_name="divider18">
+      <obj_property name="label">Input signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider19">
+      <obj_property name="label">Output signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/counter_out_sync" type="array">
+      <obj_property name="ElementShortName">counter_out_sync[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_out_sync[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/counter_out_async" type="array">
+      <obj_property name="ElementShortName">counter_out_async[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_out_async[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/counter_out_sync_en" type="array">
+      <obj_property name="ElementShortName">counter_out_sync_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_out_sync_en[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/counter_4bit_tb/counter_out_async_en" type="array">
+      <obj_property name="ElementShortName">counter_out_async_en[3:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_out_async_en[3:0]</obj_property>
+   </wvobject>
+</wave_config>
